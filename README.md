@@ -1,0 +1,1 @@
+This repository demonstrates a common error in unsafe Rust code: manipulating raw pointers without proper care. The `bug.rs` file shows how modifying memory directly through a raw pointer can corrupt data structures.  The `bugSolution.rs` file provides a safer alternative using Rust's built-in features to avoid unsafe operations whenever possible.
